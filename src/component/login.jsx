@@ -2,12 +2,12 @@ import React from "react";
 import { Box } from "@mui/material";
 
 const Login = () => {
-  console.log("Asdasdasdasd");
   return (
-    <Box sx={{ backgroundColor: "#000" }}>
+    <Box>
       <p>Hello</p>
     </Box>
-  );
-};
+  )
+}
 
-export default Login;
+export default Login
+
