@@ -3,14 +3,14 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 import { Box } from "@mui/material";
 import { Login } from "./component";
 
-const App = () => {
+const App = () => (
   <BrowserRouter>
     <Box sx={{ backgroundColor: "black" }}>
       <Routes>
         <Route path="/" exact element={<Login />} />
       </Routes>
     </Box>
-  </BrowserRouter>;
-};
+  </BrowserRouter>
+);
 
 export default App;
