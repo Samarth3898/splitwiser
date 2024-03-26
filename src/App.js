@@ -5,7 +5,7 @@ import { Login } from "./component";
 
 const App = () => (
   <BrowserRouter>
-    <Box sx={{ backgroundColor: "black" }}>
+    <Box sx={{ backgroundColor: "green" }}>
       <Routes>
         <Route path="/" exact element={<Login />} />
       </Routes>
