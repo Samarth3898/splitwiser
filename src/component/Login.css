@@ -1,0 +1,39 @@
+.login-form {
+  display: flex;
+  flex-direction: column;
+  background-color: #fff;
+  gap: 10px; /* Adjust the gap between elements as needed */
+}
+
+.login-form label {
+  font-weight: bold;
+}
+
+.login-form input {
+  padding: 5px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.login-form button {
+  padding: 8px 16px;
+  background-color: #18A582;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  width: 100px;
+  align-self: center;
+  text-align: center
+}
+
+.g-recaptcha {
+  margin-top: 20px; /* Add top margin for spacing */
+  align-self: center; /* Center-align ReCAPTCHA button within the form */
+}
+
+/* Optional: Style for the Login Page header */
+.login-header {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
